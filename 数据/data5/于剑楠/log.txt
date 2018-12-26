@@ -1,0 +1,2 @@
+1514512206625 java.io.FileNotFoundException: /storage/emulated/0/collectedData/android.sensor.accelerometer.txt (No such file or directory)
+1514512242778 java.io.IOException: No such file or directory
