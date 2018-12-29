@@ -23,6 +23,9 @@
 + Human activity recognition using quasiperiodic time series collected from a single tri-axial accelerometer 利用动作的周期性来进行动作识别
 + Orientation Independent Cell Phone Based Gait Authentication 一种基于步态的身份识别方案，创新点是手机可以不受放置位置的影响
 
+近期在做的事情：整理之前写的代码，看哪些部分可以复用，准备在之后的实验中使用
+准备做的事情：看一看论文，太久不看有的东西已经忘了。。
+
 李大壮：
 
 徐菲：
