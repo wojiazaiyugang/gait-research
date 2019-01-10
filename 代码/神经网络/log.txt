@@ -1,0 +1,319 @@
+2019-01-10 11:42:13,775 - main.py:<module>:58 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 11:42:13,776 - walk.py:load_data:29 - INFO - data0不存在
+2019-01-10 11:42:13,776 - walk.py:load_data:33 - INFO - 正在处理第 0 组数据
+2019-01-10 11:42:15,406 - walk.py:load_data:33 - INFO - 正在处理第 1 组数据
+2019-01-10 11:42:16,912 - walk.py:load_data:33 - INFO - 正在处理第 2 组数据
+2019-01-10 11:42:18,384 - walk.py:load_data:33 - INFO - 正在处理第 3 组数据
+2019-01-10 11:42:19,836 - walk.py:load_data:33 - INFO - 正在处理第 4 组数据
+2019-01-10 11:42:21,269 - walk.py:load_data:33 - INFO - 正在处理第 5 组数据
+2019-01-10 11:42:22,775 - walk.py:load_data:33 - INFO - 正在处理第 6 组数据
+2019-01-10 11:42:24,203 - walk.py:load_data:33 - INFO - 正在处理第 7 组数据
+2019-01-10 11:42:25,631 - walk.py:load_data:33 - INFO - 正在处理第 8 组数据
+2019-01-10 11:42:27,066 - walk.py:load_data:33 - INFO - 正在处理第 9 组数据
+2019-01-10 11:42:28,437 - walk.py:load_data:50 - WARNING - 数据处理成功组数 5261，失败组数1333，失败率79.78
+2019-01-10 11:42:28,504 - fullconnectnetwork.py:load_data:166 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 11:42:28,510 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-70-10E30M10L3 不存在，开始训练
+2019-01-10 11:42:32,456 - fullconnectnetwork.py:train:55 - INFO - 第  0  轮 
+2019-01-10 11:42:32,865 - fullconnectnetwork.py:evaluate:147 - INFO -   223/1307 准确率 17.06%
+2019-01-10 11:42:36,601 - fullconnectnetwork.py:train:55 - INFO - 第  1  轮 
+2019-01-10 11:42:37,010 - fullconnectnetwork.py:evaluate:147 - INFO -   277/1307 准确率 21.19%
+2019-01-10 11:42:40,728 - fullconnectnetwork.py:train:55 - INFO - 第  2  轮 
+2019-01-10 11:42:41,118 - fullconnectnetwork.py:evaluate:147 - INFO -   304/1307 准确率 23.26%
+2019-01-10 11:42:44,864 - fullconnectnetwork.py:train:55 - INFO - 第  3  轮 
+2019-01-10 11:42:45,260 - fullconnectnetwork.py:evaluate:147 - INFO -   136/1307 准确率 10.41%
+2019-01-10 11:42:49,109 - fullconnectnetwork.py:train:55 - INFO - 第  4  轮 
+2019-01-10 11:42:49,527 - fullconnectnetwork.py:evaluate:147 - INFO -   234/1307 准确率 17.90%
+2019-01-10 11:42:53,754 - fullconnectnetwork.py:train:55 - INFO - 第  5  轮 
+2019-01-10 11:42:54,252 - fullconnectnetwork.py:evaluate:147 - INFO -   166/1307 准确率 12.70%
+2019-01-10 11:42:58,319 - fullconnectnetwork.py:train:55 - INFO - 第  6  轮 
+2019-01-10 11:42:58,736 - fullconnectnetwork.py:evaluate:147 - INFO -   224/1307 准确率 17.14%
+2019-01-10 11:43:02,809 - fullconnectnetwork.py:train:55 - INFO - 第  7  轮 
+2019-01-10 11:43:03,345 - fullconnectnetwork.py:evaluate:147 - INFO -    85/1307 准确率  6.50%
+2019-01-10 11:43:08,496 - fullconnectnetwork.py:train:55 - INFO - 第  8  轮 
+2019-01-10 11:43:09,057 - fullconnectnetwork.py:evaluate:147 - INFO -   114/1307 准确率  8.72%
+2019-01-10 11:43:14,003 - fullconnectnetwork.py:train:55 - INFO - 第  9  轮 
+2019-01-10 11:43:14,623 - fullconnectnetwork.py:evaluate:147 - INFO -   121/1307 准确率  9.26%
+2019-01-10 11:43:19,843 - fullconnectnetwork.py:train:55 - INFO - 第 10  轮 
+2019-01-10 11:43:20,396 - fullconnectnetwork.py:evaluate:147 - INFO -   149/1307 准确率 11.40%
+2019-01-10 11:43:25,614 - fullconnectnetwork.py:train:55 - INFO - 第 11  轮 
+2019-01-10 11:43:26,173 - fullconnectnetwork.py:evaluate:147 - INFO -   149/1307 准确率 11.40%
+2019-01-10 11:43:31,581 - fullconnectnetwork.py:train:55 - INFO - 第 12  轮 
+2019-01-10 11:43:32,287 - fullconnectnetwork.py:evaluate:147 - INFO -   280/1307 准确率 21.42%
+2019-01-10 11:43:37,932 - fullconnectnetwork.py:train:55 - INFO - 第 13  轮 
+2019-01-10 11:43:38,536 - fullconnectnetwork.py:evaluate:147 - INFO -   195/1307 准确率 14.92%
+2019-01-10 11:43:44,227 - fullconnectnetwork.py:train:55 - INFO - 第 14  轮 
+2019-01-10 11:43:44,904 - fullconnectnetwork.py:evaluate:147 - INFO -   313/1307 准确率 23.95%
+2019-01-10 11:43:51,840 - fullconnectnetwork.py:train:55 - INFO - 第 15  轮 
+2019-01-10 11:43:52,482 - fullconnectnetwork.py:evaluate:147 - INFO -   322/1307 准确率 24.64%
+2019-01-10 11:43:58,474 - fullconnectnetwork.py:train:55 - INFO - 第 16  轮 
+2019-01-10 11:43:59,097 - fullconnectnetwork.py:evaluate:147 - INFO -   388/1307 准确率 29.69%
+2019-01-10 11:44:05,309 - fullconnectnetwork.py:train:55 - INFO - 第 17  轮 
+2019-01-10 11:44:05,984 - fullconnectnetwork.py:evaluate:147 - INFO -   368/1307 准确率 28.16%
+2019-01-10 11:44:12,165 - fullconnectnetwork.py:train:55 - INFO - 第 18  轮 
+2019-01-10 11:44:12,828 - fullconnectnetwork.py:evaluate:147 - INFO -   311/1307 准确率 23.79%
+2019-01-10 11:44:19,082 - fullconnectnetwork.py:train:55 - INFO - 第 19  轮 
+2019-01-10 11:44:19,669 - fullconnectnetwork.py:evaluate:147 - INFO -   296/1307 准确率 22.65%
+2019-01-10 11:44:25,501 - fullconnectnetwork.py:train:55 - INFO - 第 20  轮 
+2019-01-10 11:44:26,145 - fullconnectnetwork.py:evaluate:147 - INFO -   168/1307 准确率 12.85%
+2019-01-10 11:44:32,172 - fullconnectnetwork.py:train:55 - INFO - 第 21  轮 
+2019-01-10 11:44:32,799 - fullconnectnetwork.py:evaluate:147 - INFO -   309/1307 准确率 23.64%
+2019-01-10 11:44:38,863 - fullconnectnetwork.py:train:55 - INFO - 第 22  轮 
+2019-01-10 11:44:39,485 - fullconnectnetwork.py:evaluate:147 - INFO -   215/1307 准确率 16.45%
+2019-01-10 11:44:45,103 - fullconnectnetwork.py:train:55 - INFO - 第 23  轮 
+2019-01-10 11:44:45,729 - fullconnectnetwork.py:evaluate:147 - INFO -   313/1307 准确率 23.95%
+2019-01-10 11:44:51,122 - fullconnectnetwork.py:train:55 - INFO - 第 24  轮 
+2019-01-10 11:44:51,754 - fullconnectnetwork.py:evaluate:147 - INFO -   162/1307 准确率 12.39%
+2019-01-10 11:44:57,117 - fullconnectnetwork.py:train:55 - INFO - 第 25  轮 
+2019-01-10 11:44:57,699 - fullconnectnetwork.py:evaluate:147 - INFO -   164/1307 准确率 12.55%
+2019-01-10 11:45:02,912 - fullconnectnetwork.py:train:55 - INFO - 第 26  轮 
+2019-01-10 11:45:03,456 - fullconnectnetwork.py:evaluate:147 - INFO -   276/1307 准确率 21.12%
+2019-01-10 11:45:08,619 - fullconnectnetwork.py:train:55 - INFO - 第 27  轮 
+2019-01-10 11:45:09,264 - fullconnectnetwork.py:evaluate:147 - INFO -   311/1307 准确率 23.79%
+2019-01-10 11:45:14,810 - fullconnectnetwork.py:train:55 - INFO - 第 28  轮 
+2019-01-10 11:45:15,346 - fullconnectnetwork.py:evaluate:147 - INFO -   163/1307 准确率 12.47%
+2019-01-10 11:45:20,355 - fullconnectnetwork.py:train:55 - INFO - 第 29  轮 
+2019-01-10 11:45:20,906 - fullconnectnetwork.py:evaluate:147 - INFO -   296/1307 准确率 22.65%
+2019-01-10 11:45:20,906 - fullconnectnetwork.py:train:58 - INFO - 保存模型 ./network/model\walk_90-70-10E30M10L3
+2019-01-10 11:45:20,914 - fullconnectnetwork.py:train:61 - INFO - 保存模型成功
+2019-01-10 11:45:21,459 - fullconnectnetwork.py:evaluate:147 - INFO -   296/1307 准确率 22.65%
+2019-01-10 11:45:33,122 - main.py:<module>:58 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 11:45:33,123 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 11:45:33,152 - fullconnectnetwork.py:load_data:166 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 11:45:33,153 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-70-50-10E20M10L3 不存在，开始训练
+2019-01-10 11:45:41,450 - fullconnectnetwork.py:train:55 - INFO - 第  0  轮 
+2019-01-10 11:45:42,338 - fullconnectnetwork.py:evaluate:147 - INFO -   341/1307 准确率 26.09%
+2019-01-10 11:45:49,659 - fullconnectnetwork.py:train:55 - INFO - 第  1  轮 
+2019-01-10 11:45:50,316 - fullconnectnetwork.py:evaluate:147 - INFO -   556/1307 准确率 42.54%
+2019-01-10 11:45:57,067 - fullconnectnetwork.py:train:55 - INFO - 第  2  轮 
+2019-01-10 11:45:57,785 - fullconnectnetwork.py:evaluate:147 - INFO -   500/1307 准确率 38.26%
+2019-01-10 11:46:04,546 - fullconnectnetwork.py:train:55 - INFO - 第  3  轮 
+2019-01-10 11:46:05,245 - fullconnectnetwork.py:evaluate:147 - INFO -   561/1307 准确率 42.92%
+2019-01-10 11:46:12,037 - fullconnectnetwork.py:train:55 - INFO - 第  4  轮 
+2019-01-10 11:46:12,788 - fullconnectnetwork.py:evaluate:147 - INFO -   603/1307 准确率 46.14%
+2019-01-10 11:46:19,499 - fullconnectnetwork.py:train:55 - INFO - 第  5  轮 
+2019-01-10 11:46:20,211 - fullconnectnetwork.py:evaluate:147 - INFO -   297/1307 准确率 22.72%
+2019-01-10 11:46:27,300 - fullconnectnetwork.py:train:55 - INFO - 第  6  轮 
+2019-01-10 11:46:28,029 - fullconnectnetwork.py:evaluate:147 - INFO -   579/1307 准确率 44.30%
+2019-01-10 11:46:34,776 - fullconnectnetwork.py:train:55 - INFO - 第  7  轮 
+2019-01-10 11:46:35,477 - fullconnectnetwork.py:evaluate:147 - INFO -   749/1307 准确率 57.31%
+2019-01-10 11:46:42,301 - fullconnectnetwork.py:train:55 - INFO - 第  8  轮 
+2019-01-10 11:46:43,031 - fullconnectnetwork.py:evaluate:147 - INFO -    73/1307 准确率  5.59%
+2019-01-10 11:46:49,862 - fullconnectnetwork.py:train:55 - INFO - 第  9  轮 
+2019-01-10 11:46:50,578 - fullconnectnetwork.py:evaluate:147 - INFO -   833/1307 准确率 63.73%
+2019-01-10 11:46:57,486 - fullconnectnetwork.py:train:55 - INFO - 第 10  轮 
+2019-01-10 11:46:58,209 - fullconnectnetwork.py:evaluate:147 - INFO -   648/1307 准确率 49.58%
+2019-01-10 11:47:05,355 - fullconnectnetwork.py:train:55 - INFO - 第 11  轮 
+2019-01-10 11:47:05,976 - fullconnectnetwork.py:evaluate:147 - INFO -   598/1307 准确率 45.75%
+2019-01-10 11:47:12,575 - fullconnectnetwork.py:train:55 - INFO - 第 12  轮 
+2019-01-10 11:47:13,310 - fullconnectnetwork.py:evaluate:147 - INFO -   721/1307 准确率 55.16%
+2019-01-10 11:47:20,038 - fullconnectnetwork.py:train:55 - INFO - 第 13  轮 
+2019-01-10 11:47:20,749 - fullconnectnetwork.py:evaluate:147 - INFO -   760/1307 准确率 58.15%
+2019-01-10 11:47:27,696 - fullconnectnetwork.py:train:55 - INFO - 第 14  轮 
+2019-01-10 11:47:28,495 - fullconnectnetwork.py:evaluate:147 - INFO -   724/1307 准确率 55.39%
+2019-01-10 11:47:35,223 - fullconnectnetwork.py:train:55 - INFO - 第 15  轮 
+2019-01-10 11:47:35,959 - fullconnectnetwork.py:evaluate:147 - INFO -   825/1307 准确率 63.12%
+2019-01-10 11:47:42,868 - fullconnectnetwork.py:train:55 - INFO - 第 16  轮 
+2019-01-10 11:47:43,581 - fullconnectnetwork.py:evaluate:147 - INFO -   678/1307 准确率 51.87%
+2019-01-10 11:47:50,673 - fullconnectnetwork.py:train:55 - INFO - 第 17  轮 
+2019-01-10 11:47:51,311 - fullconnectnetwork.py:evaluate:147 - INFO -   644/1307 准确率 49.27%
+2019-01-10 11:47:58,296 - fullconnectnetwork.py:train:55 - INFO - 第 18  轮 
+2019-01-10 11:47:59,054 - fullconnectnetwork.py:evaluate:147 - INFO -   758/1307 准确率 58.00%
+2019-01-10 11:48:07,076 - fullconnectnetwork.py:train:55 - INFO - 第 19  轮 
+2019-01-10 11:48:07,840 - fullconnectnetwork.py:evaluate:147 - INFO -   572/1307 准确率 43.76%
+2019-01-10 11:48:07,841 - fullconnectnetwork.py:train:58 - INFO - 保存模型 ./network/model\walk_90-70-50-10E20M10L3
+2019-01-10 11:48:07,848 - fullconnectnetwork.py:train:61 - INFO - 保存模型成功
+2019-01-10 11:48:08,615 - fullconnectnetwork.py:evaluate:147 - INFO -   572/1307 准确率 43.76%
+2019-01-10 11:50:24,811 - main.py:<module>:58 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 11:50:24,811 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 11:50:24,841 - fullconnectnetwork.py:load_data:165 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 11:50:24,842 - fullconnectnetwork.py:train:44 - INFO - 模型 ./network/model\walk_90-70-50-10E20M10L3 已经存在，加载模型
+2019-01-10 11:50:25,595 - fullconnectnetwork.py:evaluate:146 - INFO -   572/1307 准确率 43.76%
+2019-01-10 11:50:37,896 - main.py:<module>:58 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 11:50:37,897 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 11:50:37,934 - fullconnectnetwork.py:load_data:165 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 11:50:37,936 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-70-50-30-10E20M10L3 不存在，开始训练
+2019-01-10 11:50:47,935 - fullconnectnetwork.py:evaluate:146 - INFO -   399/1307 准确率 30.53%
+2019-01-10 11:50:57,513 - fullconnectnetwork.py:evaluate:146 - INFO -   647/1307 准确率 49.50%
+2019-01-10 11:51:06,614 - fullconnectnetwork.py:evaluate:146 - INFO -   634/1307 准确率 48.51%
+2019-01-10 11:51:15,419 - fullconnectnetwork.py:evaluate:146 - INFO -   525/1307 准确率 40.17%
+2019-01-10 11:51:23,966 - fullconnectnetwork.py:evaluate:146 - INFO -   435/1307 准确率 33.28%
+2019-01-10 11:51:33,728 - fullconnectnetwork.py:evaluate:146 - INFO -   665/1307 准确率 50.88%
+2019-01-10 11:51:45,823 - fullconnectnetwork.py:evaluate:146 - INFO -   601/1307 准确率 45.98%
+2019-01-10 11:51:57,929 - fullconnectnetwork.py:evaluate:146 - INFO -   600/1307 准确率 45.91%
+2019-01-10 11:52:11,834 - fullconnectnetwork.py:evaluate:146 - INFO -   552/1307 准确率 42.23%
+2019-01-10 11:52:24,231 - fullconnectnetwork.py:evaluate:146 - INFO -   530/1307 准确率 40.55%
+2019-01-10 11:52:37,501 - fullconnectnetwork.py:evaluate:146 - INFO -   332/1307 准确率 25.40%
+2019-01-10 11:52:49,128 - fullconnectnetwork.py:evaluate:146 - INFO -   522/1307 准确率 39.94%
+2019-01-10 11:53:00,471 - fullconnectnetwork.py:evaluate:146 - INFO -   625/1307 准确率 47.82%
+2019-01-10 11:53:11,023 - fullconnectnetwork.py:evaluate:146 - INFO -   700/1307 准确率 53.56%
+2019-01-10 11:53:21,134 - fullconnectnetwork.py:evaluate:146 - INFO -   529/1307 准确率 40.47%
+2019-01-10 11:53:33,350 - fullconnectnetwork.py:evaluate:146 - INFO -   704/1307 准确率 53.86%
+2019-01-10 11:53:43,283 - fullconnectnetwork.py:evaluate:146 - INFO -   639/1307 准确率 48.89%
+2019-01-10 11:53:52,820 - fullconnectnetwork.py:evaluate:146 - INFO -   529/1307 准确率 40.47%
+2019-01-10 11:54:03,109 - fullconnectnetwork.py:evaluate:146 - INFO -   527/1307 准确率 40.32%
+2019-01-10 11:54:12,508 - fullconnectnetwork.py:evaluate:146 - INFO -   563/1307 准确率 43.08%
+2019-01-10 11:54:12,508 - fullconnectnetwork.py:train:57 - INFO - 保存模型 ./network/model\walk_90-70-50-30-10E20M10L3
+2019-01-10 11:54:12,516 - fullconnectnetwork.py:train:60 - INFO - 保存模型成功
+2019-01-10 11:54:13,403 - fullconnectnetwork.py:evaluate:146 - INFO -   563/1307 准确率 43.08%
+2019-01-10 11:54:29,945 - main.py:<module>:9 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 11:54:29,945 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 11:54:29,976 - fullconnectnetwork.py:load_data:165 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 11:54:29,977 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-70-30-30-10E20M10L3 不存在，开始训练
+2019-01-10 11:54:39,280 - fullconnectnetwork.py:evaluate:146 - INFO -   480/1307 准确率 36.73%
+2019-01-10 11:54:47,596 - fullconnectnetwork.py:evaluate:146 - INFO -   482/1307 准确率 36.88%
+2019-01-10 11:54:55,781 - fullconnectnetwork.py:evaluate:146 - INFO -   464/1307 准确率 35.50%
+2019-01-10 11:55:04,197 - fullconnectnetwork.py:evaluate:146 - INFO -   759/1307 准确率 58.07%
+2019-01-10 11:55:12,553 - fullconnectnetwork.py:evaluate:146 - INFO -   626/1307 准确率 47.90%
+2019-01-10 11:55:20,860 - fullconnectnetwork.py:evaluate:146 - INFO -   631/1307 准确率 48.28%
+2019-01-10 11:55:29,240 - fullconnectnetwork.py:evaluate:146 - INFO -   849/1307 准确率 64.96%
+2019-01-10 11:55:37,670 - fullconnectnetwork.py:evaluate:146 - INFO -   595/1307 准确率 45.52%
+2019-01-10 11:55:45,790 - fullconnectnetwork.py:evaluate:146 - INFO -   661/1307 准确率 50.57%
+2019-01-10 11:55:54,216 - fullconnectnetwork.py:evaluate:146 - INFO -   787/1307 准确率 60.21%
+2019-01-10 11:56:02,507 - fullconnectnetwork.py:evaluate:146 - INFO -   556/1307 准确率 42.54%
+2019-01-10 11:56:10,826 - fullconnectnetwork.py:evaluate:146 - INFO -   476/1307 准确率 36.42%
+2019-01-10 11:56:19,059 - fullconnectnetwork.py:evaluate:146 - INFO -   908/1307 准确率 69.47%
+2019-01-10 11:56:27,387 - fullconnectnetwork.py:evaluate:146 - INFO -   730/1307 准确率 55.85%
+2019-01-10 11:56:36,666 - fullconnectnetwork.py:evaluate:146 - INFO -   441/1307 准确率 33.74%
+2019-01-10 11:56:45,053 - fullconnectnetwork.py:evaluate:146 - INFO -   445/1307 准确率 34.05%
+2019-01-10 11:56:53,458 - fullconnectnetwork.py:evaluate:146 - INFO -   430/1307 准确率 32.90%
+2019-01-10 11:57:01,907 - fullconnectnetwork.py:evaluate:146 - INFO -   629/1307 准确率 48.13%
+2019-01-10 11:57:10,117 - fullconnectnetwork.py:evaluate:146 - INFO -   680/1307 准确率 52.03%
+2019-01-10 11:57:18,428 - fullconnectnetwork.py:evaluate:146 - INFO -   696/1307 准确率 53.25%
+2019-01-10 11:57:18,429 - fullconnectnetwork.py:train:57 - INFO - 保存模型 ./network/model\walk_90-70-30-30-10E20M10L3
+2019-01-10 11:57:18,436 - fullconnectnetwork.py:train:60 - INFO - 保存模型成功
+2019-01-10 11:57:19,269 - fullconnectnetwork.py:evaluate:146 - INFO -   696/1307 准确率 53.25%
+2019-01-10 11:58:23,489 - main.py:<module>:9 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 11:58:23,490 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 11:58:23,518 - fullconnectnetwork.py:load_data:165 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 11:58:23,518 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M10L3 不存在，开始训练
+2019-01-10 11:58:29,585 - fullconnectnetwork.py:evaluate:146 - INFO -   252/1307 准确率 19.28%
+2019-01-10 11:58:35,078 - fullconnectnetwork.py:evaluate:146 - INFO -   463/1307 准确率 35.42%
+2019-01-10 11:58:42,648 - fullconnectnetwork.py:evaluate:146 - INFO -   496/1307 准确率 37.95%
+2019-01-10 11:58:51,442 - fullconnectnetwork.py:evaluate:146 - INFO -   270/1307 准确率 20.66%
+2019-01-10 11:58:58,641 - fullconnectnetwork.py:evaluate:146 - INFO -   482/1307 准确率 36.88%
+2019-01-10 11:59:06,125 - fullconnectnetwork.py:evaluate:146 - INFO -   606/1307 准确率 46.37%
+2019-01-10 11:59:13,330 - fullconnectnetwork.py:evaluate:146 - INFO -   748/1307 准确率 57.23%
+2019-01-10 11:59:21,161 - fullconnectnetwork.py:evaluate:146 - INFO -   522/1307 准确率 39.94%
+2019-01-10 11:59:31,419 - fullconnectnetwork.py:evaluate:146 - INFO -   610/1307 准确率 46.67%
+2019-01-10 11:59:49,407 - fullconnectnetwork.py:evaluate:146 - INFO -   722/1307 准确率 55.24%
+2019-01-10 12:00:10,385 - fullconnectnetwork.py:evaluate:146 - INFO -   576/1307 准确率 44.07%
+2019-01-10 12:00:26,353 - fullconnectnetwork.py:evaluate:146 - INFO -   639/1307 准确率 48.89%
+2019-01-10 12:00:42,797 - fullconnectnetwork.py:evaluate:146 - INFO -   635/1307 准确率 48.58%
+2019-01-10 12:00:56,168 - fullconnectnetwork.py:evaluate:146 - INFO -   767/1307 准确率 58.68%
+2019-01-10 12:01:08,913 - fullconnectnetwork.py:evaluate:146 - INFO -   672/1307 准确率 51.42%
+2019-01-10 12:01:18,304 - fullconnectnetwork.py:evaluate:146 - INFO -   683/1307 准确率 52.26%
+2019-01-10 12:01:29,162 - fullconnectnetwork.py:evaluate:146 - INFO -   814/1307 准确率 62.28%
+2019-01-10 12:01:38,912 - fullconnectnetwork.py:evaluate:146 - INFO -   765/1307 准确率 58.53%
+2019-01-10 12:01:45,389 - fullconnectnetwork.py:evaluate:146 - INFO -   854/1307 准确率 65.34%
+2019-01-10 12:01:56,708 - fullconnectnetwork.py:evaluate:146 - INFO -   784/1307 准确率 59.98%
+2019-01-10 12:01:56,709 - fullconnectnetwork.py:train:57 - INFO - 保存模型 ./network/model\walk_90-30-30-30-10E20M10L3
+2019-01-10 12:01:56,721 - fullconnectnetwork.py:train:60 - INFO - 保存模型成功
+2019-01-10 12:01:58,818 - fullconnectnetwork.py:evaluate:146 - INFO -   784/1307 准确率 59.98%
+2019-01-10 12:02:53,279 - main.py:<module>:9 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 12:02:53,280 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 12:02:53,328 - fullconnectnetwork.py:load_data:165 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 12:02:53,329 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-30-30-30-30-10E20M10L3 不存在，开始训练
+2019-01-10 12:03:07,624 - fullconnectnetwork.py:evaluate:146 - INFO -   494/1307 准确率 37.80%
+2019-01-10 12:03:19,866 - fullconnectnetwork.py:evaluate:146 - INFO -   467/1307 准确率 35.73%
+2019-01-10 12:03:34,207 - fullconnectnetwork.py:evaluate:146 - INFO -   285/1307 准确率 21.81%
+2019-01-10 12:03:44,593 - fullconnectnetwork.py:evaluate:146 - INFO -   394/1307 准确率 30.15%
+2019-01-10 12:03:54,717 - fullconnectnetwork.py:evaluate:146 - INFO -   605/1307 准确率 46.29%
+2019-01-10 12:04:04,981 - fullconnectnetwork.py:evaluate:146 - INFO -   627/1307 准确率 47.97%
+2019-01-10 12:04:15,525 - fullconnectnetwork.py:evaluate:146 - INFO -   417/1307 准确率 31.91%
+2019-01-10 12:04:25,768 - fullconnectnetwork.py:evaluate:146 - INFO -   546/1307 准确率 41.78%
+2019-01-10 12:04:36,700 - fullconnectnetwork.py:evaluate:146 - INFO -   570/1307 准确率 43.61%
+2019-01-10 12:04:47,544 - fullconnectnetwork.py:evaluate:146 - INFO -   636/1307 准确率 48.66%
+2019-01-10 12:04:58,262 - fullconnectnetwork.py:evaluate:146 - INFO -   722/1307 准确率 55.24%
+2019-01-10 12:05:09,425 - fullconnectnetwork.py:evaluate:146 - INFO -   554/1307 准确率 42.39%
+2019-01-10 12:05:20,131 - fullconnectnetwork.py:evaluate:146 - INFO -   315/1307 准确率 24.10%
+2019-01-10 12:05:30,635 - fullconnectnetwork.py:evaluate:146 - INFO -   404/1307 准确率 30.91%
+2019-01-10 12:05:41,719 - fullconnectnetwork.py:evaluate:146 - INFO -   387/1307 准确率 29.61%
+2019-01-10 12:05:52,271 - fullconnectnetwork.py:evaluate:146 - INFO -   520/1307 准确率 39.79%
+2019-01-10 12:06:02,949 - fullconnectnetwork.py:evaluate:146 - INFO -   652/1307 准确率 49.89%
+2019-01-10 12:06:13,925 - fullconnectnetwork.py:evaluate:146 - INFO -   646/1307 准确率 49.43%
+2019-01-10 12:06:24,598 - fullconnectnetwork.py:evaluate:146 - INFO -   477/1307 准确率 36.50%
+2019-01-10 12:06:35,682 - fullconnectnetwork.py:evaluate:146 - INFO -   476/1307 准确率 36.42%
+2019-01-10 12:06:35,682 - fullconnectnetwork.py:train:57 - INFO - 保存模型 ./network/model\walk_90-30-30-30-30-10E20M10L3
+2019-01-10 12:06:35,691 - fullconnectnetwork.py:train:60 - INFO - 保存模型成功
+2019-01-10 12:06:36,890 - fullconnectnetwork.py:evaluate:146 - INFO -   476/1307 准确率 36.42%
+2019-01-10 12:07:25,128 - main.py:<module>:9 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 12:07:25,129 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 12:07:25,167 - fullconnectnetwork.py:load_data:165 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 12:07:25,168 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M10L2 不存在，开始训练
+2019-01-10 12:07:37,659 - fullconnectnetwork.py:evaluate:146 - INFO -   565/1307 准确率 43.23%
+2019-01-10 12:07:47,023 - fullconnectnetwork.py:evaluate:146 - INFO -   488/1307 准确率 37.34%
+2019-01-10 12:07:54,890 - fullconnectnetwork.py:evaluate:146 - INFO -   542/1307 准确率 41.47%
+2019-01-10 12:08:03,233 - fullconnectnetwork.py:evaluate:146 - INFO -   809/1307 准确率 61.90%
+2019-01-10 12:08:14,893 - fullconnectnetwork.py:evaluate:146 - INFO -   782/1307 准确率 59.83%
+2019-01-10 12:08:23,391 - fullconnectnetwork.py:evaluate:146 - INFO -   310/1307 准确率 23.72%
+2019-01-10 12:08:31,599 - fullconnectnetwork.py:evaluate:146 - INFO -   538/1307 准确率 41.16%
+2019-01-10 12:08:41,549 - fullconnectnetwork.py:evaluate:146 - INFO -   758/1307 准确率 58.00%
+2019-01-10 12:08:51,427 - fullconnectnetwork.py:evaluate:146 - INFO -   635/1307 准确率 48.58%
+2019-01-10 12:09:05,724 - fullconnectnetwork.py:evaluate:146 - INFO -   633/1307 准确率 48.43%
+2019-01-10 12:09:15,282 - fullconnectnetwork.py:evaluate:146 - INFO -   719/1307 准确率 55.01%
+2019-01-10 12:09:24,403 - fullconnectnetwork.py:evaluate:146 - INFO -   962/1307 准确率 73.60%
+2019-01-10 12:09:33,750 - fullconnectnetwork.py:evaluate:146 - INFO -   754/1307 准确率 57.69%
+2019-01-10 12:09:43,259 - fullconnectnetwork.py:evaluate:146 - INFO -   802/1307 准确率 61.36%
+2019-01-10 12:09:51,553 - fullconnectnetwork.py:evaluate:146 - INFO -   798/1307 准确率 61.06%
+2019-01-10 12:09:59,294 - fullconnectnetwork.py:evaluate:146 - INFO -   893/1307 准确率 68.32%
+2019-01-10 12:10:06,937 - fullconnectnetwork.py:evaluate:146 - INFO -   882/1307 准确率 67.48%
+2019-01-10 12:10:14,854 - fullconnectnetwork.py:evaluate:146 - INFO -   733/1307 准确率 56.08%
+2019-01-10 12:10:22,563 - fullconnectnetwork.py:evaluate:146 - INFO -   749/1307 准确率 57.31%
+2019-01-10 12:10:30,510 - fullconnectnetwork.py:evaluate:146 - INFO -   736/1307 准确率 56.31%
+2019-01-10 12:10:30,510 - fullconnectnetwork.py:train:57 - INFO - 保存模型 ./network/model\walk_90-30-30-30-10E20M10L2
+2019-01-10 12:10:30,517 - fullconnectnetwork.py:train:60 - INFO - 保存模型成功
+2019-01-10 12:10:31,375 - fullconnectnetwork.py:evaluate:146 - INFO -   736/1307 准确率 56.31%
+2019-01-10 13:00:00,772 - main.py:<module>:9 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 13:00:00,773 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 13:00:00,823 - fullconnectnetwork.py:load_data:165 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 13:00:00,823 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M10L1 不存在，开始训练
+2019-01-10 13:00:07,681 - fullconnectnetwork.py:evaluate:146 - INFO -   739/1307 准确率 56.54%
+2019-01-10 13:00:14,857 - fullconnectnetwork.py:evaluate:146 - INFO -   975/1307 准确率 74.60%
+2019-01-10 13:00:20,800 - fullconnectnetwork.py:evaluate:146 - INFO -   742/1307 准确率 56.77%
+2019-01-10 13:00:26,602 - fullconnectnetwork.py:evaluate:146 - INFO -   944/1307 准确率 72.23%
+2019-01-10 13:00:32,626 - fullconnectnetwork.py:evaluate:146 - INFO -   786/1307 准确率 60.14%
+2019-01-10 13:00:38,910 - fullconnectnetwork.py:evaluate:146 - INFO -   996/1307 准确率 76.21%
+2019-01-10 13:00:45,043 - fullconnectnetwork.py:evaluate:146 - INFO -   944/1307 准确率 72.23%
+2019-01-10 13:00:51,255 - fullconnectnetwork.py:evaluate:146 - INFO -   965/1307 准确率 73.83%
+2019-01-10 13:00:57,424 - fullconnectnetwork.py:evaluate:146 - INFO -   898/1307 准确率 68.71%
+2019-01-10 13:01:03,576 - fullconnectnetwork.py:evaluate:146 - INFO -   934/1307 准确率 71.46%
+2019-01-10 13:01:09,446 - fullconnectnetwork.py:evaluate:146 - INFO -   938/1307 准确率 71.77%
+2019-01-10 13:01:15,479 - fullconnectnetwork.py:evaluate:146 - INFO -   916/1307 准确率 70.08%
+2019-01-10 13:01:21,548 - fullconnectnetwork.py:evaluate:146 - INFO -   777/1307 准确率 59.45%
+2019-01-10 13:01:27,551 - fullconnectnetwork.py:evaluate:146 - INFO -  1000/1307 准确率 76.51%
+2019-01-10 13:01:33,914 - fullconnectnetwork.py:evaluate:146 - INFO -   977/1307 准确率 74.75%
+2019-01-10 13:01:40,716 - fullconnectnetwork.py:evaluate:146 - INFO -   967/1307 准确率 73.99%
+2019-01-10 13:01:46,606 - fullconnectnetwork.py:evaluate:146 - INFO -   977/1307 准确率 74.75%
+2019-01-10 13:01:52,416 - fullconnectnetwork.py:evaluate:146 - INFO -   992/1307 准确率 75.90%
+2019-01-10 13:01:58,296 - fullconnectnetwork.py:evaluate:146 - INFO -   990/1307 准确率 75.75%
+2019-01-10 13:02:04,482 - fullconnectnetwork.py:evaluate:146 - INFO -   943/1307 准确率 72.15%
+2019-01-10 13:02:04,482 - fullconnectnetwork.py:train:57 - INFO - 保存模型 ./network/model\walk_90-30-30-30-10E20M10L1
+2019-01-10 13:02:04,489 - fullconnectnetwork.py:train:60 - INFO - 保存模型成功
+2019-01-10 13:02:05,088 - fullconnectnetwork.py:evaluate:146 - INFO -   943/1307 准确率 72.15%
+2019-01-10 13:02:38,455 - main.py:<module>:9 - DEBUG - 开始运行网络====================================================================================================
+2019-01-10 13:02:38,455 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-10 13:02:38,486 - fullconnectnetwork.py:load_data:165 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-10 13:02:38,486 - fullconnectnetwork.py:train:49 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M10L0.5 不存在，开始训练
+2019-01-10 13:02:45,176 - fullconnectnetwork.py:evaluate:146 - INFO -   734/1307 准确率 56.16%
+2019-01-10 13:02:51,244 - fullconnectnetwork.py:evaluate:146 - INFO -   910/1307 准确率 69.63%
+2019-01-10 13:02:57,300 - fullconnectnetwork.py:evaluate:146 - INFO -   984/1307 准确率 75.29%
+2019-01-10 13:03:03,307 - fullconnectnetwork.py:evaluate:146 - INFO -  1079/1307 准确率 82.56%
+2019-01-10 13:03:09,301 - fullconnectnetwork.py:evaluate:146 - INFO -   929/1307 准确率 71.08%
+2019-01-10 13:03:15,827 - fullconnectnetwork.py:evaluate:146 - INFO -  1099/1307 准确率 84.09%
+2019-01-10 13:03:21,627 - fullconnectnetwork.py:evaluate:146 - INFO -  1093/1307 准确率 83.63%
+2019-01-10 13:03:28,310 - fullconnectnetwork.py:evaluate:146 - INFO -  1128/1307 准确率 86.30%
+2019-01-10 13:03:34,487 - fullconnectnetwork.py:evaluate:146 - INFO -  1161/1307 准确率 88.83%
+2019-01-10 13:03:40,488 - fullconnectnetwork.py:evaluate:146 - INFO -  1120/1307 准确率 85.69%
+2019-01-10 13:03:46,663 - fullconnectnetwork.py:evaluate:146 - INFO -  1023/1307 准确率 78.27%
+2019-01-10 13:03:52,907 - fullconnectnetwork.py:evaluate:146 - INFO -  1005/1307 准确率 76.89%
+2019-01-10 13:03:59,242 - fullconnectnetwork.py:evaluate:146 - INFO -   979/1307 准确率 74.90%
+2019-01-10 13:04:05,445 - fullconnectnetwork.py:evaluate:146 - INFO -  1023/1307 准确率 78.27%
+2019-01-10 13:04:11,972 - fullconnectnetwork.py:evaluate:146 - INFO -  1121/1307 准确率 85.77%
+2019-01-10 13:04:18,872 - fullconnectnetwork.py:evaluate:146 - INFO -  1108/1307 准确率 84.77%
+2019-01-10 13:04:25,248 - fullconnectnetwork.py:evaluate:146 - INFO -  1067/1307 准确率 81.64%
+2019-01-10 13:04:33,199 - fullconnectnetwork.py:evaluate:146 - INFO -  1073/1307 准确率 82.10%
+2019-01-10 13:04:39,818 - fullconnectnetwork.py:evaluate:146 - INFO -  1014/1307 准确率 77.58%
+2019-01-10 13:04:45,977 - fullconnectnetwork.py:evaluate:146 - INFO -  1113/1307 准确率 85.16%
+2019-01-10 13:04:45,977 - fullconnectnetwork.py:train:57 - INFO - 保存模型 ./network/model\walk_90-30-30-30-10E20M10L0.5
+2019-01-10 13:04:45,993 - fullconnectnetwork.py:train:60 - INFO - 保存模型成功
+2019-01-10 13:04:46,837 - fullconnectnetwork.py:evaluate:146 - INFO -  1113/1307 准确率 85.16%

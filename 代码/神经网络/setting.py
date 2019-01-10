@@ -1,4 +1,18 @@
 import os
+import logging
+
+# 配置日志配置同时输出到屏幕和日志文件
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter("%(asctime)s - %(filename)s:%(funcName)s:%(lineno)d - %(levelname)s - %(message)s")
+file_handler = logging.FileHandler("log.txt")
+file_handler.setFormatter(formatter)
+file_handler.setLevel(logging.DEBUG)
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(formatter)
+console_handler.setLevel(logging.DEBUG)
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
 
 # 通用环境相关
 DATA_PATH = "./data"  # 所有数据存放路径

@@ -10,10 +10,12 @@ import numpy
 class WalkNetwork(FullConnectNetwork):
     def __init__(self):
         self.network_name = "walk"
-        self.layer_sizes = [90, 10, 10,10,10]
-        self.epochs = 30
-        self.learn_rate = 3
+        self.layer_sizes = [90,30,30,30,10]
+        self.epochs = 20
+        self.learn_rate = 0.5
         self.mini_batch_size = 10
+        self.data_full_name = os.path.join(DATA0_PATH, "data0")
+        self.data_doc = "walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz"
         super().__init__()
 
     def load_data(self):
@@ -21,12 +23,12 @@ class WalkNetwork(FullConnectNetwork):
         载入步态识别数据，见mnist的load_data函数
         :return: (train_data,validate_data,test_data)
         """
-        data0_full_name = os.path.join(DATA0_PATH, "data0")
-        if os.path.isfile(data0_full_name):
+        if os.path.isfile(self.data_full_name):
             logging.info("data0已经存在")
         else:
             logging.info("data0不存在")
             train_data, validate_date, test_data = [], [], []
+            right_convert_data_count, error_convert_data_count = 0,0 # 在数据转换的时候记录一下转换正常的和转换异常数据的个数来优化转换函数
             for i in range(10):
                 logging.info("正在处理第 {0} 组数据".format(i))
                 data_for_people_i = []
@@ -38,16 +40,24 @@ class WalkNetwork(FullConnectNetwork):
                         cycle = self.format_cycle(cycle)
                         if cycle is not None:
                             data_for_people_i.append((cycle, i))
+                            right_convert_data_count +=1
+                        else:
+                            error_convert_data_count +=1
                     # 把每一个人的数据分到三个数据集合中
                     train_data.extend(data_for_people_i[:400])
                     # validate_date.extend()
                     test_data.extend(data_for_people_i[400:])
+            logging.warning("数据处理成功组数 {0}，失败组数{1}，失败率{2:.2f}".format(right_convert_data_count,error_convert_data_count,100*right_convert_data_count/(right_convert_data_count+error_convert_data_count)))
             # train_data里面的label要转成向量
             for i in range(len(train_data)):
                 train_data[i] = (train_data[i][0], self.int2vector(train_data[i][1]))
             with open(os.path.join(DATA0_PATH, "data0"), "wb") as output_file:
-                output_file.write(pickle.dumps([train_data, validate_date, test_data]))
-        data = pickle.load(open(data0_full_name, "rb"))
+                output_file.write(pickle.dumps([train_data, validate_date, test_data,self.data_doc]))
+        data = pickle.load(open(self.data_full_name, "rb"))
+        if data[3] != self.data_doc:
+            logging.exception("当前网络使用的数据异常，删除数据后重新生成：{0}".format(self.data_full_name))
+            raise Exception("数据异常")
+        super().load_data()
         return data[0], data[1], data[2]
 
     @staticmethod
@@ -121,6 +131,5 @@ class WalkNetwork(FullConnectNetwork):
             result = numpy.resize(result, (number, 1))
             return result
         else:
-            logging.warning("步态周期数据不足 {0}".format(len(data)))
             return None
 

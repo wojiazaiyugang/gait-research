@@ -20,8 +20,8 @@ class FullConnectNetwork():
         # 继承类无需声明
         self.train_data,self.validate_data,self.test_data = self.load_data()
         self.model_full_name = os.path.join(MODELS_PATH, self.network_name + "_" + "-".join(
-            list(map(str, self.layer_sizes))) + "e" + str(
-            self.epochs) + "m" + str(self.mini_batch_size) + "l" + str(self.learn_rate))
+            list(map(str, self.layer_sizes))) + "E" + str(
+            self.epochs) + "M" + str(self.mini_batch_size) + "L" + str(self.learn_rate))
         self.biases = [numpy.random.randn(i, 1) for i in self.layer_sizes[1:]]
         self.weights = [numpy.random.randn(j, i) for i, j in zip(self.layer_sizes[:-1], self.layer_sizes[1:])]
 
@@ -52,7 +52,6 @@ class FullConnectNetwork():
                 mini_batchs = [self.train_data[j:j +self.mini_batch_size] for j in range(0, len(self.train_data), self.mini_batch_size)]
                 for mini_batch in mini_batchs:
                     self.update_mini_batch(mini_batch, self.learn_rate)
-                print("第 {0:^3} 轮 ".format(i),end="")
                 self.evaluate()
             # 训练之后把模型进行保存
             logging.info("保存模型 {0}".format(self.model_full_name))
@@ -112,10 +111,21 @@ class FullConnectNetwork():
     def sigmoid(self, z):
         """
         sigmoid函数，activation = sigmoid(z)
+        这里对sigmoid函数进行优化，否则会出现 RuntimeWarning: overflow encountered in exp
         :param z: 
         :return: 
         """
-        return 1 / (1 + numpy.exp(-z))
+        # old
+        # return 1 / (1 + numpy.exp(-z))
+
+        # new
+        result = []
+        for i in z:
+            if i >= 0:
+                result.append(1 / (1 + numpy.exp(-i)))
+            else:
+                result.append(numpy.exp(i)/(1+numpy.exp(i)))
+        return numpy.resize(numpy.array(result),z.shape)
 
     def sigmoid_prime(self, z):
         """
@@ -133,7 +143,7 @@ class FullConnectNetwork():
         test_results = [(numpy.argmax(self.feedforward(input_data)), input_data_label) for
                         (input_data, input_data_label) in self.test_data]
         result = sum(int(output_result == input_data_label) for (output_result, input_data_label) in test_results)
-        print("{0:>5}/{1:<5}= {2:>6.2f}%".format(result, len(self.test_data),100*result/len(self.test_data)))
+        logging.info("{0:>5}/{1:<5}准确率{2:>6.2f}%".format(result, len(self.test_data),100*result/len(self.test_data)))
         return result
 
     def feedforward(self, input_data):
@@ -150,8 +160,9 @@ class FullConnectNetwork():
     def load_data(self):
         """
         初始化网络的时候加载数据
-        :return:
+        :return:(train_data,validate_data,test_data)
         """
+        logging.info("数据说明:{0}".format(self.data_doc))
         return None,None,None
 
     @staticmethod
