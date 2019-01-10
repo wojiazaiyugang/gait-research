@@ -17,8 +17,9 @@ class FullConnectNetwork():
         self.epochs = self.epochs
         self.learn_rate = self.learn_rate
         self.mini_batch_size = self.mini_batch_size
+        self.data_doc = self.data_doc
         # 继承类无需声明
-        self.train_data,self.validate_data,self.test_data = self.load_data()
+        self.train_data, self.validate_data, self.test_data = self.load_data()
         self.model_full_name = os.path.join(MODELS_PATH, self.network_name + "_" + "-".join(
             list(map(str, self.layer_sizes))) + "E" + str(
             self.epochs) + "M" + str(self.mini_batch_size) + "L" + str(self.learn_rate))
@@ -49,7 +50,8 @@ class FullConnectNetwork():
             logging.info("模型 {0} 不存在，开始训练".format(self.model_full_name))
             for i in range(self.epochs):
                 random.shuffle(self.train_data)
-                mini_batchs = [self.train_data[j:j +self.mini_batch_size] for j in range(0, len(self.train_data), self.mini_batch_size)]
+                mini_batchs = [self.train_data[j:j + self.mini_batch_size] for j in
+                               range(0, len(self.train_data), self.mini_batch_size)]
                 for mini_batch in mini_batchs:
                     self.update_mini_batch(mini_batch, self.learn_rate)
                 self.evaluate()
@@ -124,8 +126,8 @@ class FullConnectNetwork():
             if i >= 0:
                 result.append(1 / (1 + numpy.exp(-i)))
             else:
-                result.append(numpy.exp(i)/(1+numpy.exp(i)))
-        return numpy.resize(numpy.array(result),z.shape)
+                result.append(numpy.exp(i) / (1 + numpy.exp(i)))
+        return numpy.resize(numpy.array(result), z.shape)
 
     def sigmoid_prime(self, z):
         """
@@ -140,10 +142,23 @@ class FullConnectNetwork():
         评估网络准确率
         :return:
         """
-        test_results = [(numpy.argmax(self.feedforward(input_data)), input_data_label) for
+
+        def vector_loss(v1, v2):
+            """
+            计算两个vector的距离，用于计算损失函数
+            :param v1:
+            :param v2:
+            :return:
+            """
+            return sum([abs(i1 - i2) for (i1, i2) in zip(v1, v2)])
+
+        test_results = [(self.feedforward(input_data), input_data_label) for
                         (input_data, input_data_label) in self.test_data]
+        loss = float(sum(vector_loss(i1, self.int2vector(i2)) for (i1, i2) in test_results))
+        test_results = [(numpy.argmax(i1), i2) for (i1, i2) in test_results]
         result = sum(int(output_result == input_data_label) for (output_result, input_data_label) in test_results)
-        logging.info("{0:>5}/{1:<5}准确率{2:>6.2f}%".format(result, len(self.test_data),100*result/len(self.test_data)))
+        logging.info(
+            "{0:>5}/{1:<5}准确率{2:>6.2f}% loss={3}".format(result, len(self.test_data), 100 * result / len(self.test_data),loss))
         return result
 
     def feedforward(self, input_data):
@@ -159,11 +174,11 @@ class FullConnectNetwork():
 
     def load_data(self):
         """
-        初始化网络的时候加载数据
+        初始化网络的时候加载数据，继承的网络自己去实现逻辑
         :return:(train_data,validate_data,test_data)
         """
         logging.info("数据说明:{0}".format(self.data_doc))
-        return None,None,None
+        return None, None, None
 
     @staticmethod
     def int2vector(i: int) -> numpy.ndarray:

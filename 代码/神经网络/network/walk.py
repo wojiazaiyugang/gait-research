@@ -10,10 +10,10 @@ import numpy
 class WalkNetwork(FullConnectNetwork):
     def __init__(self):
         self.network_name = "walk"
-        self.layer_sizes = [90,30,30,30,10]
+        self.layer_sizes = [90, 30, 30, 30, 30, 10]
         self.epochs = 20
-        self.learn_rate = 0.5
-        self.mini_batch_size = 10
+        self.learn_rate = 0.1
+        self.mini_batch_size = 5
         self.data_full_name = os.path.join(DATA0_PATH, "data0")
         self.data_doc = "walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz"
         super().__init__()
@@ -28,7 +28,7 @@ class WalkNetwork(FullConnectNetwork):
         else:
             logging.info("data0不存在")
             train_data, validate_date, test_data = [], [], []
-            right_convert_data_count, error_convert_data_count = 0,0 # 在数据转换的时候记录一下转换正常的和转换异常数据的个数来优化转换函数
+            right_convert_data_count, error_convert_data_count = 0, 0  # 在数据转换的时候记录一下转换正常的和转换异常数据的个数来优化转换函数
             for i in range(10):
                 logging.info("正在处理第 {0} 组数据".format(i))
                 data_for_people_i = []
@@ -40,19 +40,21 @@ class WalkNetwork(FullConnectNetwork):
                         cycle = self.format_cycle(cycle)
                         if cycle is not None:
                             data_for_people_i.append((cycle, i))
-                            right_convert_data_count +=1
+                            right_convert_data_count += 1
                         else:
-                            error_convert_data_count +=1
+                            error_convert_data_count += 1
                     # 把每一个人的数据分到三个数据集合中
                     train_data.extend(data_for_people_i[:400])
                     # validate_date.extend()
                     test_data.extend(data_for_people_i[400:])
-            logging.warning("数据处理成功组数 {0}，失败组数{1}，失败率{2:.2f}".format(right_convert_data_count,error_convert_data_count,100*right_convert_data_count/(right_convert_data_count+error_convert_data_count)))
+            logging.warning("数据处理成功组数 {0}，失败组数{1}，失败率{2:.2f}".format(right_convert_data_count, error_convert_data_count,
+                                                                     100 * right_convert_data_count / (
+                                                                                 right_convert_data_count + error_convert_data_count)))
             # train_data里面的label要转成向量
             for i in range(len(train_data)):
                 train_data[i] = (train_data[i][0], self.int2vector(train_data[i][1]))
             with open(os.path.join(DATA0_PATH, "data0"), "wb") as output_file:
-                output_file.write(pickle.dumps([train_data, validate_date, test_data,self.data_doc]))
+                output_file.write(pickle.dumps([train_data, validate_date, test_data, self.data_doc]))
         data = pickle.load(open(self.data_full_name, "rb"))
         if data[3] != self.data_doc:
             logging.exception("当前网络使用的数据异常，删除数据后重新生成：{0}".format(self.data_full_name))
@@ -61,14 +63,14 @@ class WalkNetwork(FullConnectNetwork):
         return data[0], data[1], data[2]
 
     @staticmethod
-    def get_xyz(data:str):
+    def get_xyz(data: str):
         """
         获取xyz三个值
         :param data:
         :return:
         """
         timestamp, x, y, z = [float(i) for i in data.split(" ")]
-        return x,y,z
+        return x, y, z
 
     @staticmethod
     def format_data(data: str):
@@ -81,12 +83,13 @@ class WalkNetwork(FullConnectNetwork):
         return math.sqrt(x * x + y * y + z * z)
 
     @staticmethod
-    def detect_cycle(data:list):
+    def detect_cycle(data: list):
         """
         步态周期检测
         :param data: list
         :return: list[list,list,……] 表示划分的周期
         """
+
         def distance(list1, list2):
             """
             比较两个向量的欧式距离
@@ -95,7 +98,7 @@ class WalkNetwork(FullConnectNetwork):
             :return:
             """
             assert len(list1) == len(list2), "比较欧式距离时两个向量长度应该相等"
-            list1 = [math.sqrt(i[0]*i[0] + i[1]*i[1] + i[2]*i[2]) for i in list1]
+            list1 = [math.sqrt(i[0] * i[0] + i[1] * i[1] + i[2] * i[2]) for i in list1]
             list2 = [math.sqrt(i[0] * i[0] + i[1] * i[1] + i[2] * i[2]) for i in list2]
             s = 0
             for i in range(len(list1)):
@@ -124,12 +127,12 @@ class WalkNetwork(FullConnectNetwork):
         :param data:
         :return:
         """
-        number =  self.layer_sizes[0] # 格式化之后的数据个数
-        if len(data) >= number//3:
-            result = [i[0] for i in data[:number//3]] + [i[1] for i in data[:number//3]] + [i[2] for i in data[:number//3]]
+        number = self.layer_sizes[0]  # 格式化之后的数据个数
+        if len(data) >= number // 3:
+            result = [i[0] for i in data[:number // 3]] + [i[1] for i in data[:number // 3]] + [i[2] for i in
+                                                                                                data[:number // 3]]
             result = numpy.array(result)
             result = numpy.resize(result, (number, 1))
             return result
         else:
             return None
-
