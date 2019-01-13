@@ -1,0 +1,313 @@
+2019-01-11 21:11:37,449 - main.py:<module>:18 - DEBUG - 开始运行网络====================================================================================================
+2019-01-11 21:11:37,450 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-11 21:11:37,632 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-11 21:11:37,634 - fullconnectnetwork.py:train:50 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M1L0.15 不存在，开始训练
+2019-01-11 21:11:57,356 - fullconnectnetwork.py:evaluate:161 - INFO -   728/1307 准确率 55.70% loss=1726.2328734051227
+2019-01-11 21:12:18,876 - fullconnectnetwork.py:evaluate:161 - INFO -   553/1307 准确率 42.31% loss=1668.1863440317716
+2019-01-11 21:12:37,129 - fullconnectnetwork.py:evaluate:161 - INFO -   475/1307 准确率 36.34% loss=1621.0268575001003
+2019-01-11 21:12:51,721 - fullconnectnetwork.py:evaluate:161 - INFO -   402/1307 准确率 30.76% loss=1685.0611178918377
+2019-01-11 21:13:05,934 - fullconnectnetwork.py:evaluate:161 - INFO -   853/1307 准确率 65.26% loss=1399.70424503352
+2019-01-11 21:13:21,323 - fullconnectnetwork.py:evaluate:161 - INFO -   703/1307 准确率 53.79% loss=1354.555309653314
+2019-01-11 21:13:35,346 - fullconnectnetwork.py:evaluate:161 - INFO -   694/1307 准确率 53.10% loss=1466.8040573163448
+2019-01-11 21:13:53,300 - fullconnectnetwork.py:evaluate:161 - INFO -   797/1307 准确率 60.98% loss=1315.7928848324113
+2019-01-11 21:14:14,414 - fullconnectnetwork.py:evaluate:161 - INFO -   917/1307 准确率 70.16% loss=1162.6644395507735
+2019-01-11 21:14:30,709 - fullconnectnetwork.py:evaluate:161 - INFO -   829/1307 准确率 63.43% loss=1336.6170159889027
+2019-01-11 21:14:48,281 - fullconnectnetwork.py:evaluate:161 - INFO -   881/1307 准确率 67.41% loss=1266.7606263071684
+2019-01-11 21:15:03,535 - fullconnectnetwork.py:evaluate:161 - INFO -   751/1307 准确率 57.46% loss=1219.9353035626316
+2019-01-11 21:15:20,560 - fullconnectnetwork.py:evaluate:161 - INFO -   933/1307 准确率 71.38% loss=1118.060348665822
+2019-01-11 21:15:37,179 - fullconnectnetwork.py:evaluate:161 - INFO -   881/1307 准确率 67.41% loss=1133.555627437392
+2019-01-11 21:15:55,879 - fullconnectnetwork.py:evaluate:161 - INFO -   882/1307 准确率 67.48% loss=1068.5345974241106
+2019-01-11 21:16:11,101 - fullconnectnetwork.py:evaluate:161 - INFO -   912/1307 准确率 69.78% loss=1173.020169807534
+2019-01-11 21:16:26,539 - fullconnectnetwork.py:evaluate:161 - INFO -   960/1307 准确率 73.45% loss=1032.2006859696123
+2019-01-11 21:16:44,090 - fullconnectnetwork.py:evaluate:161 - INFO -   871/1307 准确率 66.64% loss=1098.3905180954853
+2019-01-11 21:17:00,246 - fullconnectnetwork.py:evaluate:161 - INFO -   820/1307 准确率 62.74% loss=1242.1747244776982
+2019-01-11 21:17:15,284 - fullconnectnetwork.py:evaluate:161 - INFO -   718/1307 准确率 54.93% loss=1265.6644630426292
+2019-01-11 21:17:15,284 - fullconnectnetwork.py:train:59 - INFO - 保存模型 ./network/model\walk_90-30-30-30-10E20M1L0.15
+2019-01-11 21:17:15,303 - fullconnectnetwork.py:train:62 - INFO - 保存模型成功
+2019-01-11 21:17:17,352 - fullconnectnetwork.py:evaluate:161 - INFO -   718/1307 准确率 54.93% loss=1265.6644630426292
+2019-01-11 21:21:06,038 - main.py:<module>:18 - DEBUG - 开始运行网络====================================================================================================
+2019-01-11 21:21:06,040 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-11 21:21:06,214 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-11 21:21:06,221 - fullconnectnetwork.py:train:50 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M2L0.15 不存在，开始训练
+2019-01-11 21:21:32,849 - fullconnectnetwork.py:evaluate:161 - INFO -   698/1307 准确率 53.40% loss=1888.9669652134176
+2019-01-11 21:21:57,337 - fullconnectnetwork.py:evaluate:161 - INFO -   915/1307 准确率 70.01% loss=1521.8764432110163
+2019-01-11 21:22:51,165 - fullconnectnetwork.py:evaluate:161 - INFO -  1020/1307 准确率 78.04% loss=1307.8255602421405
+2019-01-11 21:23:18,657 - fullconnectnetwork.py:evaluate:161 - INFO -   937/1307 准确率 71.69% loss=1228.193058061529
+2019-01-11 21:23:28,293 - fullconnectnetwork.py:evaluate:161 - INFO -   936/1307 准确率 71.61% loss=1279.3222442420063
+2019-01-11 21:23:36,949 - fullconnectnetwork.py:evaluate:161 - INFO -  1014/1307 准确率 77.58% loss=1207.4181990771117
+2019-01-11 21:23:45,464 - fullconnectnetwork.py:evaluate:161 - INFO -   991/1307 准确率 75.82% loss=1068.7542859110065
+2019-01-11 21:23:54,736 - fullconnectnetwork.py:evaluate:161 - INFO -  1013/1307 准确率 77.51% loss=1023.605677543607
+2019-01-11 21:24:02,556 - fullconnectnetwork.py:evaluate:161 - INFO -   981/1307 准确率 75.06% loss=990.484660343554
+2019-01-11 21:24:10,407 - fullconnectnetwork.py:evaluate:161 - INFO -  1041/1307 准确率 79.65% loss=907.9332033917266
+2019-01-11 21:24:19,684 - fullconnectnetwork.py:evaluate:161 - INFO -   846/1307 准确率 64.73% loss=1152.8188214903785
+2019-01-11 21:24:28,799 - fullconnectnetwork.py:evaluate:161 - INFO -  1076/1307 准确率 82.33% loss=787.8073605616262
+2019-01-11 21:24:37,252 - fullconnectnetwork.py:evaluate:161 - INFO -  1112/1307 准确率 85.08% loss=723.4904820307497
+2019-01-11 21:24:46,230 - fullconnectnetwork.py:evaluate:161 - INFO -  1092/1307 准确率 83.55% loss=865.3714843285078
+2019-01-11 21:24:55,794 - fullconnectnetwork.py:evaluate:161 - INFO -   954/1307 准确率 72.99% loss=976.4269969060651
+2019-01-11 21:25:05,054 - fullconnectnetwork.py:evaluate:161 - INFO -  1069/1307 准确率 81.79% loss=877.4024699155347
+2019-01-11 21:25:12,860 - fullconnectnetwork.py:evaluate:161 - INFO -  1031/1307 准确率 78.88% loss=892.9424499479923
+2019-01-11 21:25:20,163 - fullconnectnetwork.py:evaluate:161 - INFO -   964/1307 准确率 73.76% loss=978.0993094873412
+2019-01-11 21:25:28,075 - fullconnectnetwork.py:evaluate:161 - INFO -  1039/1307 准确率 79.50% loss=791.0135168633117
+2019-01-11 21:25:36,706 - fullconnectnetwork.py:evaluate:161 - INFO -   961/1307 准确率 73.53% loss=892.8424579433778
+2019-01-11 21:25:36,706 - fullconnectnetwork.py:train:59 - INFO - 保存模型 ./network/model\walk_90-30-30-30-10E20M2L0.15
+2019-01-11 21:25:36,716 - fullconnectnetwork.py:train:62 - INFO - 保存模型成功
+2019-01-11 21:25:37,761 - fullconnectnetwork.py:evaluate:161 - INFO -   961/1307 准确率 73.53% loss=892.8424579433778
+2019-01-11 21:31:42,482 - main.py:<module>:18 - DEBUG - 开始运行网络====================================================================================================
+2019-01-11 21:31:42,485 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-11 21:31:42,668 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-11 21:31:42,670 - fullconnectnetwork.py:train:50 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M10L0.15 不存在，开始训练
+2019-01-11 21:32:14,551 - fullconnectnetwork.py:evaluate:161 - INFO -   258/1307 准确率 19.74% loss=1894.1447919028703
+2019-01-11 21:32:28,924 - fullconnectnetwork.py:evaluate:161 - INFO -   595/1307 准确率 45.52% loss=1905.8426263119418
+2019-01-11 21:32:46,711 - fullconnectnetwork.py:evaluate:161 - INFO -   664/1307 准确率 50.80% loss=1921.8888986757124
+2019-01-11 21:33:01,806 - fullconnectnetwork.py:evaluate:161 - INFO -   857/1307 准确率 65.57% loss=1786.9304978059613
+2019-01-11 21:33:21,785 - fullconnectnetwork.py:evaluate:161 - INFO -   927/1307 准确率 70.93% loss=1601.3195257016694
+2019-01-11 21:33:36,449 - fullconnectnetwork.py:evaluate:161 - INFO -   932/1307 准确率 71.31% loss=1454.0922690370414
+2019-01-11 21:34:18,462 - fullconnectnetwork.py:evaluate:161 - INFO -   950/1307 准确率 72.69% loss=1355.5412396080872
+2019-01-11 21:34:56,322 - fullconnectnetwork.py:evaluate:161 - INFO -   979/1307 准确率 74.90% loss=1253.8307855665257
+2019-01-11 21:35:26,668 - fullconnectnetwork.py:evaluate:161 - INFO -   997/1307 准确率 76.28% loss=1178.6702811603031
+2019-01-11 21:36:06,478 - fullconnectnetwork.py:evaluate:161 - INFO -   983/1307 准确率 75.21% loss=1194.1931903932782
+2019-01-11 21:36:38,044 - fullconnectnetwork.py:evaluate:161 - INFO -   989/1307 准确率 75.67% loss=1102.921567434552
+2019-01-11 21:37:14,801 - fullconnectnetwork.py:evaluate:161 - INFO -   988/1307 准确率 75.59% loss=1077.1985877982436
+2019-01-11 21:37:53,755 - fullconnectnetwork.py:evaluate:161 - INFO -  1000/1307 准确率 76.51% loss=1028.5832080224466
+2019-01-11 21:38:31,833 - fullconnectnetwork.py:evaluate:161 - INFO -  1004/1307 准确率 76.82% loss=1010.7502697664925
+2019-01-11 21:39:00,875 - fullconnectnetwork.py:evaluate:161 - INFO -   985/1307 准确率 75.36% loss=1047.688766244267
+2019-01-11 21:39:26,281 - fullconnectnetwork.py:evaluate:161 - INFO -  1034/1307 准确率 79.11% loss=952.4346182299499
+2019-01-11 21:39:51,079 - fullconnectnetwork.py:evaluate:161 - INFO -  1034/1307 准确率 79.11% loss=968.2747436279852
+2019-01-11 21:40:16,496 - fullconnectnetwork.py:evaluate:161 - INFO -  1017/1307 准确率 77.81% loss=926.9754967674511
+2019-01-11 21:40:53,405 - fullconnectnetwork.py:evaluate:161 - INFO -  1038/1307 准确率 79.42% loss=888.722348625247
+2019-01-11 21:41:29,099 - fullconnectnetwork.py:evaluate:161 - INFO -  1005/1307 准确率 76.89% loss=943.8497033888038
+2019-01-11 21:41:29,100 - fullconnectnetwork.py:train:59 - INFO - 保存模型 ./network/model\walk_90-30-30-30-10E20M10L0.15
+2019-01-11 21:41:29,144 - fullconnectnetwork.py:train:62 - INFO - 保存模型成功
+2019-01-11 21:41:33,035 - fullconnectnetwork.py:evaluate:161 - INFO -  1005/1307 准确率 76.89% loss=943.8497033888038
+2019-01-11 22:05:04,766 - main.py:<module>:18 - DEBUG - 开始运行网络====================================================================================================
+2019-01-11 22:05:04,770 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-11 22:05:04,984 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-11 22:05:04,989 - fullconnectnetwork.py:train:50 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M20L0.15 不存在，开始训练
+2019-01-11 22:05:42,522 - fullconnectnetwork.py:evaluate:161 - INFO -   284/1307 准确率 21.73% loss=2329.2524937512076
+2019-01-11 22:05:56,140 - fullconnectnetwork.py:evaluate:161 - INFO -   439/1307 准确率 33.59% loss=2202.232442452587
+2019-01-11 22:06:26,176 - fullconnectnetwork.py:evaluate:161 - INFO -   505/1307 准确率 38.64% loss=2170.040488737514
+2019-01-11 22:06:49,354 - fullconnectnetwork.py:evaluate:161 - INFO -   564/1307 准确率 43.15% loss=2167.831625923889
+2019-01-11 22:07:11,829 - fullconnectnetwork.py:evaluate:161 - INFO -   674/1307 准确率 51.57% loss=2130.329567079536
+2019-01-11 22:07:34,893 - fullconnectnetwork.py:evaluate:161 - INFO -   869/1307 准确率 66.49% loss=2008.8778693423587
+2019-01-11 22:08:04,576 - fullconnectnetwork.py:evaluate:161 - INFO -   913/1307 准确率 69.85% loss=1874.3880298269496
+2019-01-11 22:08:28,506 - fullconnectnetwork.py:evaluate:161 - INFO -   914/1307 准确率 69.93% loss=1774.3254910454127
+2019-01-11 22:08:53,248 - fullconnectnetwork.py:evaluate:161 - INFO -   939/1307 准确率 71.84% loss=1723.254448568334
+2019-01-11 22:09:10,252 - fullconnectnetwork.py:evaluate:161 - INFO -   970/1307 准确率 74.22% loss=1622.608284867055
+2019-01-11 22:09:38,266 - fullconnectnetwork.py:evaluate:161 - INFO -   968/1307 准确率 74.06% loss=1555.3595721947943
+2019-01-11 22:10:07,863 - fullconnectnetwork.py:evaluate:161 - INFO -   974/1307 准确率 74.52% loss=1506.0151405359327
+2019-01-11 22:10:35,178 - fullconnectnetwork.py:evaluate:161 - INFO -   991/1307 准确率 75.82% loss=1450.928224399098
+2019-01-11 22:11:07,338 - fullconnectnetwork.py:evaluate:161 - INFO -   972/1307 准确率 74.37% loss=1447.5231819865758
+2019-01-11 22:11:38,596 - fullconnectnetwork.py:evaluate:161 - INFO -   966/1307 准确率 73.91% loss=1415.717305491722
+2019-01-11 22:12:12,291 - fullconnectnetwork.py:evaluate:161 - INFO -  1002/1307 准确率 76.66% loss=1366.2445012174906
+2019-01-11 22:12:42,583 - fullconnectnetwork.py:evaluate:161 - INFO -  1003/1307 准确率 76.74% loss=1352.2559021154061
+2019-01-11 22:12:59,275 - fullconnectnetwork.py:evaluate:161 - INFO -  1026/1307 准确率 78.50% loss=1293.2446575300883
+2019-01-11 22:13:22,425 - fullconnectnetwork.py:evaluate:161 - INFO -  1020/1307 准确率 78.04% loss=1293.8720778206464
+2019-01-11 22:13:52,400 - fullconnectnetwork.py:evaluate:161 - INFO -  1058/1307 准确率 80.95% loss=1314.2538587390402
+2019-01-11 22:13:52,401 - fullconnectnetwork.py:train:59 - INFO - 保存模型 ./network/model\walk_90-30-30-30-10E20M20L0.15
+2019-01-11 22:13:52,415 - fullconnectnetwork.py:train:62 - INFO - 保存模型成功
+2019-01-11 22:13:58,169 - fullconnectnetwork.py:evaluate:161 - INFO -  1058/1307 准确率 80.95% loss=1314.2538587390402
+2019-01-11 22:15:56,144 - main.py:<module>:18 - DEBUG - 开始运行网络====================================================================================================
+2019-01-11 22:15:56,146 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-11 22:15:56,491 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-11 22:15:56,493 - fullconnectnetwork.py:train:50 - INFO - 模型 ./network/model\walk_90-30-30-30-10E20M5L0.15 不存在，开始训练
+2019-01-11 22:16:22,843 - fullconnectnetwork.py:evaluate:161 - INFO -   745/1307 准确率 57.00% loss=2076.6689703719
+2019-01-11 22:16:45,352 - fullconnectnetwork.py:evaluate:161 - INFO -   881/1307 准确率 67.41% loss=1830.321473930147
+2019-01-11 22:17:12,827 - fullconnectnetwork.py:evaluate:161 - INFO -   892/1307 准确率 68.25% loss=1593.8967915542205
+2019-01-11 22:17:43,515 - fullconnectnetwork.py:evaluate:161 - INFO -  1045/1307 准确率 79.95% loss=1412.8022591679292
+2019-01-11 22:18:02,158 - fullconnectnetwork.py:evaluate:161 - INFO -  1129/1307 准确率 86.38% loss=1202.572994449122
+2019-01-11 22:18:24,311 - fullconnectnetwork.py:evaluate:161 - INFO -  1091/1307 准确率 83.47% loss=1122.3762104379134
+2019-01-11 22:18:41,417 - fullconnectnetwork.py:evaluate:161 - INFO -  1052/1307 准确率 80.49% loss=1098.1770574260206
+2019-01-11 22:19:07,039 - fullconnectnetwork.py:evaluate:161 - INFO -  1059/1307 准确率 81.03% loss=1069.0386473613144
+2019-01-11 22:19:26,320 - fullconnectnetwork.py:evaluate:161 - INFO -  1119/1307 准确率 85.62% loss=947.4557153839672
+2019-01-11 22:19:55,959 - fullconnectnetwork.py:evaluate:161 - INFO -  1119/1307 准确率 85.62% loss=904.8144427434714
+2019-01-11 22:20:37,364 - fullconnectnetwork.py:evaluate:161 - INFO -  1170/1307 准确率 89.52% loss=816.2791508580517
+2019-01-12 17:12:59,041 - main.py:<module>:18 - DEBUG - 开始运行网络====================================================================================================
+2019-01-12 17:12:59,041 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 17:12:59,097 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 17:12:59,097 - fullconnectnetwork.py:train:50 - INFO - 模型 ./network/model/walk_90-30-30-30-10E20M5L0.15 不存在，开始训练
+2019-01-12 17:13:14,312 - fullconnectnetwork.py:evaluate:161 - INFO -   494/1307 准确率 37.80% loss=2028.0959955523447
+2019-01-12 17:13:29,620 - fullconnectnetwork.py:evaluate:161 - INFO -   615/1307 准确率 47.05% loss=1946.4456200685627
+2019-01-12 17:13:44,701 - fullconnectnetwork.py:evaluate:161 - INFO -   707/1307 准确率 54.09% loss=1830.0937798764755
+2019-01-12 17:32:35,421 - main.py:<module>:18 - DEBUG - 开始运行网络====================================================================================================
+2019-01-12 17:32:35,422 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 17:32:35,453 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 17:32:35,454 - fullconnectnetwork.py:train:50 - INFO - 模型 ./network/model/walk_90-30-30-30-10E20M5L0.15 不存在，开始训练
+2019-01-12 19:51:37,077 - main.py:<module>:18 - DEBUG - 开始运行网络====================================================================================================
+2019-01-12 19:51:37,077 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:51:37,109 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:51:37,110 - fullconnectnetwork.py:train:50 - INFO - 模型 ./network/model/walk_90-30-30-30-10E20M5L0.15 不存在，开始训练
+2019-01-12 19:51:44,211 - fullconnectnetwork.py:evaluate:161 - INFO -   778/1307 准确率 59.53% loss=1935.3763612732741
+2019-01-12 19:51:51,165 - fullconnectnetwork.py:evaluate:161 - INFO -   876/1307 准确率 67.02% loss=1793.159353264543
+2019-01-12 19:51:58,184 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:51:58,244 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:51:58,245 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:51:58,265 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:52:26,987 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:52:27,016 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:52:27,017 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:52:27,038 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:54:20,505 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:54:20,534 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:54:20,534 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:54:20,555 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:56:14,331 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:56:14,363 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:56:14,364 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:56:14,414 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:57:01,342 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:57:01,374 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:57:01,375 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:57:01,428 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:58:15,665 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:58:15,697 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:58:15,698 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:58:15,761 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:58:31,019 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:58:31,046 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:58:31,046 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:58:31,096 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:59:09,223 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:59:09,257 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 19:59:09,258 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 19:59:09,319 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:00:32,987 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:00:33,015 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:00:33,016 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:00:33,067 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:00:54,674 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:00:54,704 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:00:54,705 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:00:54,754 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:03:48,374 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:03:48,402 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:03:48,402 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:03:48,454 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:04:20,673 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:04:20,701 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:04:20,701 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:04:20,755 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:07:46,834 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:07:46,864 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:07:46,865 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:07:46,914 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:11:59,576 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:11:59,606 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:11:59,606 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:11:59,628 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:12:03,029 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:12:03,058 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:12:03,058 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:12:03,079 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:12:14,031 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:12:14,064 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:12:14,064 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:12:14,088 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:12:33,974 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:12:34,003 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:12:34,004 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:12:34,061 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:13:07,664 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:13:07,694 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:13:07,694 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:13:07,717 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:13:21,795 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:13:21,826 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:13:21,826 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:13:21,847 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:13:30,842 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:13:30,869 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:13:30,869 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:13:30,922 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:13:53,995 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:13:54,026 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:13:54,026 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:13:54,047 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:14:29,334 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:14:29,359 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:14:29,360 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:14:29,409 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:16:57,336 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:16:57,368 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:16:57,369 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:16:57,424 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:18:43,919 - walk.py:load_data:29 - INFO - data0不存在
+2019-01-12 20:18:43,919 - walk.py:load_data:33 - INFO - 正在处理第 0 组数据
+2019-01-12 20:18:45,561 - walk.py:load_data:33 - INFO - 正在处理第 1 组数据
+2019-01-12 20:18:47,172 - walk.py:load_data:33 - INFO - 正在处理第 2 组数据
+2019-01-12 20:18:48,745 - walk.py:load_data:33 - INFO - 正在处理第 3 组数据
+2019-01-12 20:18:50,335 - walk.py:load_data:33 - INFO - 正在处理第 4 组数据
+2019-01-12 20:18:51,886 - walk.py:load_data:33 - INFO - 正在处理第 5 组数据
+2019-01-12 20:18:53,484 - walk.py:load_data:33 - INFO - 正在处理第 6 组数据
+2019-01-12 20:18:55,149 - walk.py:load_data:33 - INFO - 正在处理第 7 组数据
+2019-01-12 20:18:56,744 - walk.py:load_data:33 - INFO - 正在处理第 8 组数据
+2019-01-12 20:18:58,389 - walk.py:load_data:33 - INFO - 正在处理第 9 组数据
+2019-01-12 20:19:00,009 - walk.py:load_data:52 - WARNING - 数据处理成功组数 5261，失败组数1333，失败率79.78
+2019-01-12 20:19:00,068 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:19:00,072 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:19:00,088 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:19:15,182 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:19:15,200 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:19:15,200 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:19:15,215 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:19:36,973 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:19:36,997 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:19:36,998 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:19:37,018 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:19:58,831 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:19:58,848 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:19:58,848 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:19:58,869 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:20:10,098 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:20:10,121 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:20:10,122 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:20:10,141 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:22:52,542 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:22:52,558 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:22:52,558 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:22:52,578 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:24:26,069 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:24:26,089 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:24:26,090 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:24:26,106 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:25:26,682 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:25:26,700 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:25:26,701 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:25:26,716 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:25:56,537 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:25:56,556 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:25:56,557 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:25:56,573 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:27:59,706 - walk.py:load_data:29 - INFO - data0不存在
+2019-01-12 20:27:59,708 - walk.py:load_data:33 - INFO - 正在处理第 0 组数据
+2019-01-12 20:28:02,162 - walk.py:load_data:33 - INFO - 正在处理第 1 组数据
+2019-01-12 20:28:04,580 - walk.py:load_data:33 - INFO - 正在处理第 2 组数据
+2019-01-12 20:28:06,979 - walk.py:load_data:33 - INFO - 正在处理第 3 组数据
+2019-01-12 20:28:09,419 - walk.py:load_data:33 - INFO - 正在处理第 4 组数据
+2019-01-12 20:28:11,898 - walk.py:load_data:33 - INFO - 正在处理第 5 组数据
+2019-01-12 20:28:14,286 - walk.py:load_data:33 - INFO - 正在处理第 6 组数据
+2019-01-12 20:28:16,834 - walk.py:load_data:33 - INFO - 正在处理第 7 组数据
+2019-01-12 20:28:19,235 - walk.py:load_data:33 - INFO - 正在处理第 8 组数据
+2019-01-12 20:28:21,659 - walk.py:load_data:33 - INFO - 正在处理第 9 组数据
+2019-01-12 20:28:24,249 - walk.py:load_data:52 - WARNING - 数据处理成功组数 5261，失败组数1333，失败率79.78
+2019-01-12 20:28:24,360 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:28:24,361 - walk.py:load_data:29 - INFO - data0不存在
+2019-01-12 20:28:24,362 - walk.py:load_data:33 - INFO - 正在处理第 0 组数据
+2019-01-12 20:28:26,789 - walk.py:load_data:33 - INFO - 正在处理第 1 组数据
+2019-01-12 20:28:29,242 - walk.py:load_data:33 - INFO - 正在处理第 2 组数据
+2019-01-12 20:28:31,750 - walk.py:load_data:33 - INFO - 正在处理第 3 组数据
+2019-01-12 20:28:34,204 - walk.py:load_data:33 - INFO - 正在处理第 4 组数据
+2019-01-12 20:28:36,605 - walk.py:load_data:33 - INFO - 正在处理第 5 组数据
+2019-01-12 20:28:38,962 - walk.py:load_data:33 - INFO - 正在处理第 6 组数据
+2019-01-12 20:28:41,342 - walk.py:load_data:33 - INFO - 正在处理第 7 组数据
+2019-01-12 20:28:43,697 - walk.py:load_data:33 - INFO - 正在处理第 8 组数据
+2019-01-12 20:28:46,154 - walk.py:load_data:33 - INFO - 正在处理第 9 组数据
+2019-01-12 20:28:48,685 - walk.py:load_data:52 - WARNING - 数据处理成功组数 5261，失败组数1333，失败率79.78
+2019-01-12 20:28:48,808 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:29:55,276 - walk.py:load_data:29 - INFO - data0不存在
+2019-01-12 20:29:55,276 - walk.py:load_data:33 - INFO - 正在处理第 0 组数据
+2019-01-12 20:29:56,865 - walk.py:load_data:33 - INFO - 正在处理第 1 组数据
+2019-01-12 20:29:58,436 - walk.py:load_data:33 - INFO - 正在处理第 2 组数据
+2019-01-12 20:30:06,585 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:30:06,615 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz
+2019-01-12 20:30:06,616 - walk.py:load_data:27 - INFO - data0已经存在
+2019-01-12 20:30:06,638 - fullconnectnetwork.py:load_data:180 - INFO - 数据说明:walk数据。对传感器数据进行周期划分，输入90，分别是一个周期里的xyz

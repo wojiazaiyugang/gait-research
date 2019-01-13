@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7560f1a-c40f-49b0-8d24-316752055933" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/imdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/.idea/神经网络.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/accData9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/data0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/gyrData9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/data0/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/mnist/mnist.pkl.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/data/my_mnist_test_data/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/fullconnectnetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/mnist_784-30-10_30_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_30-20-10_30_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_30-30-10_30_3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_30-5-10e30m5l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_32-5-10e30m5l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-10-10-10-10-10-10e30m10l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-10-10-10-10-10e30m10l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-10-10-10-10e30m10l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-10-10E30M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-10E30M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-20-20-20-10E20M5L0.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-10e30m5l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-10e30m5l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10E20M10L0.05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10E20M10L0.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10E20M10L0.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10E20M10L1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10E20M10L2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10E20M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10E20M5L0.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10E60M5L0.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10e30m10l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10e30m5l10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-10e30m5l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-30-30-10E20M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-30-30-5-10e30m10l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-40-20-5-10e30m10l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-5-1-5-10e30m10l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-5-10e30m5l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-5-5-5-10e30m10l3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-50-30-20-10E30M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-70-10E30M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-70-30-30-10E20M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-70-50-10E20M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/model/walk_90-70-50-30-10E20M10L3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/network/walk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../神经网络/setting.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/network$walk.coverage" NAME="walk Coverage Results" MODIFIED="1547293846244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
+    <SUITE FILE_PATH="coverage/network$main.coverage" NAME="main Coverage Results" MODIFIED="1547296202514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/network$imdb.coverage" NAME="imdb Coverage Results" MODIFIED="1547295352985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-376084858">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="19" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="175" />
+          <entry key="py" value="2070" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2245" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network/imdb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="42" selection-end-column="37" />
+              <folding>
+                <element signature="e#22#53#0" expanded="true" />
+                <marker date="1547292843206" expanded="true" signature="183:437" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="788">
+              <caret line="310" column="82" selection-start-line="310" selection-start-column="82" selection-end-line="310" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/network/walk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="164" column="44" lean-forward="true" selection-start-line="164" selection-start-column="44" selection-end-line="164" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/optimizers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="225" column="51" selection-start-line="225" selection-start-column="51" selection-end-line="225" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#197#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/engine/training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="108" column="37" lean-forward="true" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/setting.py" />
+        <option value="$PROJECT_DIR$/network/imdb.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/network/walk.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="294" />
+    <option name="y" value="544" />
+    <option name="width" value="3030" />
+    <option name="height" value="2192" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="imdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="network" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/imdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="network" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="walk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="network" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/network" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/network/walk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.imdb" />
+      <item itemvalue="Python.walk" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.imdb" />
+        <item itemvalue="Python.walk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7560f1a-c40f-49b0-8d24-316752055933" name="Default Changelist" comment="" />
+      <created>1547283159910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547283159910</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1513" height="1013" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18075602" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" sideWeight="0.49946696" weight="0.3291714" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49965635" weight="0.3291714" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.575945" weight="0.28944382" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5278351" weight="0.56072646" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.36632302" side_tool="true" visible="true" weight="0.5584563" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.55150884" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.63367695" visible="true" weight="0.5584563" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/network/imdb.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="train_data.shape" language="Python" />
+        <watch expression="train_label.shape" language="Python" />
+        <watch expression="tr" language="Python" />
+        <watch expression="train_data.shape" language="Python" />
+        <watch expression="train_label.shape" language="Python" />
+        <watch expression="test_data.shape" language="Python" />
+        <watch expression="test_label.shape" language="Python" />
+        <watch expression="os.path.isfile(self.data_full_name)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>os.path.isfile(self.data_full_name)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tr</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>test_label.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>test_data.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train_label.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train_data.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train_label.resize((3954,10))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train_label.resize((3954,10)).shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train_label.resize(())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[i[1] for i in train_data]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/utils/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1075">
+          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/datasets/imdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#46#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/losses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="706" selection-start-line="706" selection-end-line="706" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/backend/tensorflow_backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="3080" column="4" selection-start-line="3080" selection-start-column="4" selection-end-line="3080" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/activations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/engine/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="353" column="8" selection-start-line="353" selection-start-column="8" selection-end-line="353" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="986" column="24" selection-start-line="986" selection-start-column="24" selection-end-line="986" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/-55699153/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="432" column="4" selection-start-line="432" selection-start-column="4" selection-end-line="432" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="108" column="37" lean-forward="true" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="310" column="82" selection-start-line="310" selection-start-column="82" selection-end-line="310" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/imdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="42" selection-end-column="37" />
+          <folding>
+            <element signature="e#22#53#0" expanded="true" />
+            <marker date="1547292843206" expanded="true" signature="183:437" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#197#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="164" column="44" lean-forward="true" selection-start-line="164" selection-start-column="44" selection-end-line="164" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/673106490/1405239563/keras/optimizers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="225" column="51" selection-start-line="225" selection-start-column="51" selection-end-line="225" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
